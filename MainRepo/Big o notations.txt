@@ -1,0 +1,31 @@
+                 O(1) – constant
+                 O(log(n)) – logarithmic
+                 O((log(n)) c ) – poly-logarithmic
+                 O(n) – linear
+                 O(n² ) – quadratic
+                 O(n c ) – polynomial
+                O(c n ) – exponential
+
+
+
+
+O( 1 ):
+If the algorithm always perform the same number of operations regardless of input size
+ we say that it takes constant time.
+
+O( log ( n ) ):
+If the algorithm perform operations on only some of the input elements and not on all of them, 
+then we say that it takes logarithmic time, where n is the size of the input. The binary search is great example for that,
+ because it will split the size of the array by half each time, thus skipping most elements.
+
+O( n ):
+If the algorithm perform operation on every element of the input we say that it takes linear time, where n is the size of the input. 
+Very good example here will be any linear search algorithm 
+because it will iterate through all elements in the array precisely once.
+
+O( n² )
+If the algorithm perform n operations on every element of the input, resulting in n², 
+then we say that it takes quadratic time, where n is the size of the input. 
+This result is generally accepted as bad performance! The bubble sort algorithm is the right example here because it contains two loops.
+ If each loop has tome complexity O(n), then total will be O(n²) 
+since bubble sort will always go through all elements of its arrays.
